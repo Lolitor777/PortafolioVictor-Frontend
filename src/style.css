@@ -318,13 +318,19 @@ body {
 
 .testimony-slider-image {
     width: 150px;
+    height: 150px;
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--color-three) 2px solid;
 }
 
 .testimony-slider-img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
