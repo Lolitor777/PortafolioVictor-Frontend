@@ -16,7 +16,7 @@ export const OtterTheme = ({ closeModal }) => {
     }
 
   return (
-        <button onClick={() => changeColor('#A68A64','#0077B6','#000814','#F2E9E4','#BC6C25')} className='theme-container theme-container-otter'>
+        <button onClick={() => changeColor('#A68A64','#0077B6','#000814','#F2E9E4','#0077B6')} className='theme-container theme-container-otter'>
           <img src={otter} className='theme-img'/>
           <div className='container-colors'>
           <p className='theme-title'>Nutria</p>

@@ -27,6 +27,7 @@ export const Comments = ({ newComment }) => {
   };
 
   return (
+    <MagicMotion >
       <div className="comment-container">
         <h3 className="comment-paragraph">Escribeme lo que quieras!</h3>
         <div className="comment-container-child">
@@ -48,5 +49,6 @@ export const Comments = ({ newComment }) => {
           ))}
         </div>
       </div>
+      </MagicMotion>
   );
 };
