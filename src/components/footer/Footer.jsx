@@ -14,7 +14,7 @@ export const Footer = () => {
                     <img src="https://storage.googleapis.com/imagenesportafolio/instagram%20(1).png" alt="Logo de instagram" className="social-img" />
                 </a>
             </nav>
-            <small>Derechos reservados © Victor Carvajal</small>
+            
         </div>
     </footer>
   )
